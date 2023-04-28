@@ -1,6 +1,6 @@
 setfacl -b File/Dir
 where -b: removes all ACL's info of given file/Dir
-
+hello
 Removing Default ACLs"-
 =====================
 Syntax: setfacl -k file/Dir

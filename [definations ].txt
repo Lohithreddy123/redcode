@@ -1,0 +1,125 @@
+1. what is kernel?
+Ans:- is the core operating system
+2. what is shell?
+Ans:- shell is interpreter that executes commands typed as string(ex: bash,csh,ksh...)
+3. what is prompt?
+Ans:- is the visual que that indicates an interactive shell is waiting for the user to type a command
+4. command?
+ Ans:- is the name of the program to run
+5. option?
+Ans:- is part of the command line that adjusts the behaviour of a command
+6. what is argument?
+Ans:- describes the part of the command line that specifies the target that the command should operate
+7. what is terminal?
+Ans:- is the hardware display and keyboar used to interact with a system.that provieds display for o/p and keyboard for i/p to a shell session
+8. what is the console?
+Ans:- is the one of multiple login console that can support an independent login shell.
+9. what is file?
+Ans:- file is the collection od data
+  NOTE:in linux every thing is a file
+10. what is path? types of path?
+Ans:- used to recognise the perticular file/directory in a file system
+     1)absoulte path:--> cd /home/cdn/nw1/nw2
+     2)relative pathe:--> cd nw1/nw2
+11. what is file system?
+Ans:- the heirarchical arrangement of files and directories is know as file sysetm
+12. what max number of character of a file?
+Ans:- 255
+13. what is process?
+Ans:-is program in exection(running) is called process
+14.expand pts?        
+Ans:- psedo terminal slave
+15. expand tty?
+Ans:- tele type
+16. what is pipe?
+Ans:-output of one command is redirected into input of another command is know as pipe
+17. cut command?
+Ans:- used to extract file contents based on delemeter
+NOTE: the default internal field seperator is sapce in linux
+18. Regular expresion?(grep)
+Ans:- used to search content in the file
+19. what is physical volume?
+Ans:- it is a blockdevice such as partition or whole device
+20. what is volume group?
+Ans:- one or more pv's grouped into volume group
+21. what is logical volume ?
+Ans:- in lvm a volume group is devided into logical volumes
+22. what is swap space?
+Ans:- swap space is a secondary storage area  for over commited memory
+23. what is striping?
+Ans:- it is done by chopping data into pices & each pices of data is writting into different pvs.
+24. what is mirrored logical volume?
+Ans:- it maintains identical copies on different pvs,where the data is written in one device is also written in second device as well.
+25. what is linear logical volume?
+Ans:- linear logical volume aggregates space from one or more pv's into one volume.
+26. what is snapshot?
+Ans:- it captures the modified data
+27. what is epoch days?
+Ans:- the days elapsed since jan 1st 1970 till now is called epoch days
+28. what is umask?
+Ans:- it is command restric the permission given from the kernel(system).
+29. what is major number?
+Ans:- it identifies device driver.
+30. what is mainer number?
+Ans:- it identifices device by itself.
+31. what is super block?
+Ans:- super block contines entire information about file system.
+32. what is inode?
+Ans:- it is a data structure it containes file information.
+33. what is inode bit map?
+Ans:- it is used to keep the track of all allocated and free inodes .
+34. what is data bit map?
+Ans:- it contines information whether the data block is free or not.
+35. what is hard linked?
+Ans:- more than one files can refered by the same inode number and these files said to be hardlinked each other
+36. what is softlink?
+Ans:- A softlink is a file which contains the name of the other file it is also called as symbolic or symlink.
+37. what is raid?
+Ans:- Multiple hard drives are grouped together to form a single logical volume.
+38. what is pwck?
+Ans:- to check the consistancy of the password in linux
+39. what is usrck?
+Ans:- to check the consistancy of password in AIX
+40. why we use filesystem?
+Ans:- to give certain pattern to the disk for inserting data
+41. what is meta data?
+Ans:- Data about data
+42. What is sudo
+A. sudo allows the system administration to give certain users the ability to run all commands to as a root.
+43. what is device driver?
+A. device dirver is software in the kernal it controls the activety on port, the format of data is sent to the devices.
+44.what is port?  
+A. the physical connector in the system where physical devices are attached,and most port programable by the system software.
+45. what is demon?
+A . DEAMON is a process that is continously running in the back ground.
+46. what is the first process that is created in process manager?
+A. system D [DEAMON] , ITS pID =1
+47.what is thread?
+A. thread is a light weight process .and its operats in same address space.
+48.how will you bring the jobs to the fore ground that are running in background?
+A. [fg job.no]
+49.what is the rang of the nice numbers?
+A. in b/w {-20 to +19}.
+
+50.what is Processor Affinity ? 
+A.Incase of multiple CPUs and multiprogramming environment, the processor swich over multiple program in round robin fashion. The pre-empted job will be scheduled with previously allocated CPU for better performance. The is known as processor affinity.
+
+51.Zombie or Defunct process:-
+A. A child process signals its parent as it exits. All resources except for the process identity(PID) are released. This is known as zombie state of a process.
+
+  
+expantions:
+----------
+chsh - change shell
+uuid - universal unique identifier
+guid - global unique identifier
+MBR - master boot record
+GPT - guid partion table
+RAID - redundant array of independent disks
+lsblk - list of blocks
+blkid - block id's
+SCSI - simple computer system interface
+lsscsi - scsi list
+LVM - logical volume manager
+tmpfs - temporary file system
+ 

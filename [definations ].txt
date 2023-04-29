@@ -1,4 +1,6 @@
 1. what is kernel?
+
+hrfokrfoferfreofnefiernfierfirefffirefreiufhreiufhrifhnreufr
 Ans:- is the core operating system
 2. what is shell?
 Ans:- shell is interpreter that executes commands typed as string(ex: bash,csh,ksh...)

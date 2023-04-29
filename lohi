@@ -7,4 +7,8 @@ dhis is lohith
        thank you
 hello
 remote modified
+<<<<<<< HEAD
 last line in local
+=======
+last line in remote
+>>>>>>> 4abd687cbad34ab44066026c4fb273375bf18d65
